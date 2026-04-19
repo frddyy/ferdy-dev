@@ -38,3 +38,49 @@
     transform: translateY(0);
   }
 }
+
+@media print {
+  /* 1. The Background Fix: Change fixed to absolute and force full height */
+  .fixed.inset-0 {
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    z-index: -1 !important;
+  }
+
+  /* 2. The "Visibility" Fix: Ensure animations don't start at 0 opacity */
+  .fade-in, .animate-route-fade, main {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* 3. Layout Fix: Prevent the body from clipping the PDF height */
+  html, body {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  /* 4. Style Reset (The "Pink Card" fix we discussed) */
+  .project-card, [class*="bg-white/10"], [class*="bg-gray-50"] {
+    background-color: #ffffff !important;
+    color: #1d1d1f !important;
+    border: 1px solid #e5e7eb !important;
+    background-image: none !important;
+  }
+  
+  /* Ensure text is readable against the light background */
+  .text-white\/90, .text-gray-300 {
+    color: #4b5563 !important; /* dark gray */
+  }
+
+  /* Targeted classes to hide */
+  #devtools-indicator,
+  .nextjs-toast,
+  [data-nextjs-toast="true"],
+  [data-next-badge-root="true"] {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+}

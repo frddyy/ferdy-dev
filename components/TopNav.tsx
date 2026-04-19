@@ -25,7 +25,7 @@ export function TopNav() {
         <div className="flex items-center gap-3 px-2 md:px-4">
           <Link href="/" className="flex items-center justify-center hover:scale-105 transition-transform" onClick={() => setIsMobileMenuOpen(false)}>
             <img 
-              src="favicon.ico" 
+              src="/favicon.ico" 
               alt="Brand Icon" 
               // dark:invert instantly flips the black icon to white in dark mode
               className="w-6 h-6 dark:invert opacity-90 transition-all duration-500"

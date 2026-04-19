@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mochamad Ferdy Fauzan | Software Engineer",
     description: "Software Engineer specializing in scalable fullstack architecture, applied AI, and pixel-perfect user experiences.",
-    url: "https://ferdy.dev", // Note: Change this if you use a different domain later
+    url: "https://ferdyfauzan.vercel.app", // Note: Change this if you use a different domain later
     siteName: "Ferdy Fauzan Portfolio",
     images: [
       {
