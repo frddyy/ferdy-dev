@@ -42,8 +42,8 @@ export default async function ProjectDetail({ params }: Props) {
   return (
     <main className="min-h-screen pt-32 pb-32 px-6 max-w-[1200px] mx-auto relative overflow-hidden bg-white/40 dark:bg-black/40 backdrop-blur-xl rounded-[3rem] shadow-xl border border-white dark:border-white/10 mt-8 mb-8 transition-colors duration-500">
       {/* Decorative Blur Gradients */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-purple-200/50 dark:bg-purple-900/30 rounded-full blur-[120px] -z-10 pointer-events-none translate-x-1/3 -translate-y-1/3 transition-colors duration-500" />
-      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-200/50 dark:bg-blue-900/30 rounded-full blur-[120px] -z-10 pointer-events-none -translate-x-1/3 translate-y-1/3 transition-colors duration-500" />
+      {/* <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-purple-200/50 dark:bg-purple-900/30 rounded-full blur-[120px] -z-10 pointer-events-none translate-x-1/3 -translate-y-1/3 transition-colors duration-500" />
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-200/50 dark:bg-blue-900/30 rounded-full blur-[120px] -z-10 pointer-events-none -translate-x-1/3 translate-y-1/3 transition-colors duration-500" /> */}
 
       <FadeIn>
         <Link href="/work" className="inline-flex items-center gap-2 text-sm font-bold tracking-widest text-gray-400 dark:text-gray-500 uppercase mb-16 hover:text-black dark:hover:text-white transition-colors">

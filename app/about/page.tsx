@@ -28,7 +28,7 @@ export default function About() {
           <div className="relative z-10 pt-8 md:pt-12 pb-24 sm:pb-32 md:pb-48 w-full md:max-w-[70%] lg:max-w-[65%]">
             <p className="text-xs font-bold tracking-widest text-gray-400 dark:text-gray-500 uppercase mb-4">About Me</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1d1d1f] dark:text-white mb-6 md:mb-8">Behind the Code.</h1>
-            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium leading-relaxed w-full md:max-w-[80%] bg-white/50 dark:bg-black/50 md:bg-transparent backdrop-blur-md md:backdrop-blur-none p-5 md:p-0 rounded-2xl border border-white/20 md:border-transparent">
+            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium leading-relaxed w-full md:max-w-[80%] bg-white/50 md:bg-transparent backdrop-blur-md md:backdrop-blur-none p-5 md:p-0 rounded-2xl border border-white/20 md:border-transparent">
               {personalInfo.bio} 
             </p>
           </div>

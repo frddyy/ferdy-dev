@@ -54,14 +54,14 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
       </head>
-      <body className="min-h-full flex flex-col bg-[#fdfdfd] dark:bg-[#050505] text-[#1d1d1f] dark:text-white font-sans selection:bg-blue-600 selection:text-white relative overflow-x-hidden transition-colors duration-500">
+      <body className="min-h-full flex flex-col bg-[#efefef] dark:bg-[#1e1e1e] text-[#1d1d1f] dark:text-white font-sans selection:bg-blue-600 selection:text-white relative overflow-x-hidden transition-colors duration-500">
         <ThemeProvider defaultTheme="system">
           {/* Soft Background Mesh Gradients */}
-          <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+          {/* <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
             <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-400/20 dark:bg-blue-600/20 blur-[120px] transition-colors duration-700" />
             <div className="absolute top-[20%] right-[-10%] w-[40%] h-[50%] rounded-full bg-purple-400/20 dark:bg-purple-600/20 blur-[120px] transition-colors duration-700" />
             <div className="absolute bottom-[-10%] left-[20%] w-[60%] h-[60%] rounded-full bg-indigo-300/20 dark:bg-indigo-600/20 blur-[120px] transition-colors duration-700" />
-          </div>
+          </div> */}
           <TopNav />
           {/* Native Layout Page Transitions Container */}
           <main className="relative z-10 flex-1 w-full animate-route-fade transition-all duration-700">

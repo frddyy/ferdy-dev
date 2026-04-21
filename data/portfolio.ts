@@ -26,7 +26,7 @@ export const projects = [
     slug: "podface",
     title: "Podface - AI Video Podcast Generator", 
     category: "AI & Desktop Application", 
-    context: "Final Academic Project",
+    context: "Final Academic Project [Group Project]",
     role: "Fullstack AI Engineer",
     summary: "An AI-powered desktop application that humanizes digital content by generating synchronized 3D speech-driven facial animations directly from multi-speaker audio files.", 
     details: {
@@ -52,7 +52,7 @@ export const projects = [
     slug: "presence-app",
     title: "Presence App - Attendance System", 
     category: "Enterprise System & Leadership", 
-    context: "Professional Internship",
+    context: "Professional Internship [Group Project]",
     role: "System Analyst & Fullstack Developer",
     summary: "A real-time, multi-tenant attendance management system utilizing precise geofencing to automate check-ins and reduce HR administrative burdens.", 
     details: {
@@ -80,7 +80,7 @@ export const projects = [
     slug: "recipe-book",
     title: "Recipe Book Application", 
     category: "Mobile Application", 
-    context: "Freelance Project",
+    context: "Freelance Project [Group Project]",
     role: "Frontend & Mobile Developer",
     summary: "A cross-platform web and mobile application for personalized recipe management, utilizing a unified backend architecture.", 
     details: {
@@ -100,7 +100,7 @@ export const projects = [
     slug: "payment-gateway-service",
     title: "Payment Gateway Service", 
     category: "Distributed Backend System",
-    context: "Independent Project",
+    context: "Individual Project",
     role: "Backend Engineer",
     summary: "A highly resilient backend orchestration service simulating core banking transaction flows with asynchronous event publishing.", 
     details: {
@@ -119,7 +119,7 @@ export const projects = [
     slug: "emosync",
     title: "Emosync - Emotion-Based Spotify Playlists", 
     category: "UX & Machine Learning", 
-    context: "Academic Team Project",
+    context: "Academic Project [Group Project]",
     role: "Machine Learning Engineer",
     summary: "A human-centric AI experiment integrating YOLOv8 face detection with Spotify APIs to translate real-time facial expressions into personalized music curation.", 
     details: {
@@ -142,7 +142,7 @@ export const projects = [
     slug: "kwp-syariah",
     title: "KWP Syariah Digital Platform", 
     category: "Fullstack Web Application", 
-    context: "Professional Contract",
+    context: "Professional Contract [Group Project]",
     role: "Fullstack Developer",
     summary: "A syariah-compliant cooperative management platform emphasizing user-centric development through direct User Acceptance Testing (UAT).", 
     details: {
@@ -166,7 +166,7 @@ export const projects = [
       slug: "the-themit-of-kliwon",
       title: "The Themit of Kliwon", 
       category: "3D Spatial Design & Gaming", 
-      context: "Academic Team Project",
+      context: "Academic Project [Group Project]",
       role: "Game Developer",
       summary: "An immersive 3D horror game merging software logic with spatial design and interactive storytelling.", 
       details: {
@@ -193,7 +193,7 @@ export const projects = [
     slug: "tiktics",
     title: "Tiktics - Influencer Recommendation", 
     category: "Data Analytics", 
-    context: "Academic Team Project",
+    context: "Academic Project [Group Project]",
     role: "Fullstack Developer",
     summary: "A social media analytic system designed to recommend TikTok influencers and predict content performance using historical data analysis.", 
     details: {
@@ -215,12 +215,12 @@ export const projects = [
       "/assets/images/portfolio/influencer-recommendation/7-content-details.png",
       "/assets/images/portfolio/influencer-recommendation/9-statistic-prediction.png"
     ]
-},
+  },
   { 
     slug: "spendwise",
     title: "SpendWise - Budgeting PWA", 
     category: "Web Application", 
-    context: "Academic Team Project",
+    context: "Academic Project [Group Project]",
     role: "Fullstack Developer",
     summary: "A Progressive Web App designed to simplify personal financial management through intuitive data visualization and real-time recap tracking.", 
     details: {
@@ -250,7 +250,7 @@ export const projects = [
     slug: "digital-image-processing",
     title: "Digital Image Processing Web App", 
     category: "Web Application", 
-    context: "Academic Project",
+    context: "Academic Project [Individual Project]",
     role: "Fullstack Developer",
     summary: "A full-stack application performing server-side image manipulation, applying OpenCV transformations like Canny edge detection and histogram equalization to user uploads.", 
     details: {
@@ -273,7 +273,7 @@ export const projects = [
     slug: "portfolify",
     title: "Portfolify - CV Maker", 
     category: "Web Application", 
-    context: "Academic Team Project",
+    context: "Academic Project [Group Project]",
     role: "Fullstack Developer",
     summary: "A web utility tool that allows users to input their data to generate formatted CVs and personal portfolio websites dynamically.", 
     details: {
@@ -296,7 +296,7 @@ export const projects = [
     slug: "coordinate-converter",
     title: "Coordinate Converter", 
     category: "Utility Tool", 
-    context: "Independent Project",
+    context: "Individual Project",
     role: "Frontend Developer",
     summary: "A focused utility application for converting mapping coordinates between DMS (Degrees, Minutes, Seconds) and Decimal Degrees formats.", 
     details: {
