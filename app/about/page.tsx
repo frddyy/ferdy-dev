@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-// Ensure you add 'languages' to your import from portfolio.ts
 import { personalInfo, experiences, education, organizations, languages } from "@/data/portfolio";
 import { FadeIn } from "@/components/FadeIn";
 import { InteractiveGallery } from "@/components/InteractiveGallery";
@@ -21,14 +20,14 @@ export default function About() {
       {/* 00. HEADER & PHOTO */}
       <div className="relative w-full mb-0">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:right-0 w-[90%] max-w-[300px] md:max-w-none md:w-[350px] lg:w-[450px] h-[450px] sm:h-[500px] md:h-[550px] z-0 overflow-hidden opacity-30 dark:opacity-60 md:opacity-80 lg:opacity-100 transition-all duration-700 pointer-events-none">
-          <img src="/assets/images/hero-avatar.png" alt="Ferdy" className="w-full h-full object-cover object-top filter drop-shadow-2xl" />
+          <img src="/assets/images/hero-avatar.webp" alt="Ferdy" className="w-full h-full object-cover object-top filter drop-shadow-2xl" />
         </div>
 
         <FadeIn>
           <div className="relative z-10 pt-8 md:pt-12 pb-24 sm:pb-32 md:pb-48 w-full md:max-w-[70%] lg:max-w-[65%]">
             <p className="text-xs font-bold tracking-widest text-gray-400 dark:text-gray-500 uppercase mb-4">About Me</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-[#1d1d1f] dark:text-white mb-6 md:mb-8">Behind the Code.</h1>
-            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium leading-relaxed w-full md:max-w-[80%] bg-white/50 md:bg-transparent backdrop-blur-md md:backdrop-blur-none p-5 md:p-0 rounded-2xl border border-white/20 md:border-transparent">
+            <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 font-medium leading-relaxed w-full md:max-w-[80%] bg-white/50 dark:bg-black/50 md:bg-transparent md:dark:bg-transparent backdrop-blur-md md:backdrop-blur-none p-5 md:p-0 rounded-2xl border border-white/20 dark:border-white/10 md:border-transparent md:dark:border-transparent">
               {personalInfo.bio} 
             </p>
           </div>

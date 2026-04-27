@@ -28,13 +28,18 @@ export const SkillBadge = ({ name, category }: { name: string; category?: string
     "Express.js": "express",
     "ExpressJS": "express",
     "Laravel": "laravel",
+    "Laravel (PHP)": "laravel",
     "PHP": "php",
     
     // Database & Message Brokers
     "PostgreSQL": "postgresql",
     "MySQL": "mysql",
     "MongoDB": "mongodb",
+    "Astra DB": "datastax", // DataStax is the company behind Astra DB
     "Apache Kafka": "apachekafka",
+    
+    // AI & LLM
+    "Gemini 2.5 Flash": "googlegemini",
     
     // DevOps, Testing & Tools
     "Docker": "docker",
@@ -56,7 +61,6 @@ export const SkillBadge = ({ name, category }: { name: string; category?: string
 
   const slug = slugMap[name];
 
-  // Intelligent Icon Router
   const renderIcon = () => {
     if (name === "AWS") {
       return <i className="fa-brands fa-aws text-base opacity-80 dark:text-white"></i>;
@@ -64,14 +68,13 @@ export const SkillBadge = ({ name, category }: { name: string; category?: string
     if (slug) {
       return <img src={`https://cdn.simpleicons.org/${slug}`} alt={name} className="w-3.5 h-3.5 dark:invert opacity-70" />;
     }
-    
     if (name.includes("Computer Vision") || name.includes("OpenCV") || name.includes("YOLOv8") || name.includes("Roboflow")) {
       return <ScanFace className="w-3.5 h-3.5 text-blue-400 opacity-70" />;
     }
     if (name.includes("Speech") || name.includes("VOCA")) {
       return <AudioLines className="w-3.5 h-3.5 text-purple-400 opacity-70" />;
     }
-    if (name.includes("Generative AI") || name.includes("AI/ML") || name.includes("Seed-VC") || name.includes("MICA")) {
+    if (name.includes("Generative AI") || name.includes("AI/ML") || name.includes("Seed-VC") || name.includes("MICA") || name.includes("Langflow") || name.includes("RAG") || name.includes("Prompt")) {
       return <BrainCircuit className="w-3.5 h-3.5 text-orange-400 opacity-70" />;
     }
     

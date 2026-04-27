@@ -11,29 +11,34 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ferdy.dev"),
+  metadataBase: new URL("https://ferdyfauzan.vercel.app"),
+
   title: "Mochamad Ferdy Fauzan | Software Engineer",
-  description: "Software Engineer specializing in scalable fullstack architecture, applied AI, and pixel-perfect user experiences.",
+  description:
+    "Software Engineer specializing in scalable fullstack architecture, applied AI, and pixel-perfect user experiences.",
   keywords: [
-    "Mochamad Ferdy Fauzan", 
-    "Software Engineer", 
-    "Fullstack Developer", 
-    "Frontend Architecture", 
-    "Vue",
-    "React", 
-    "Next.js", 
-    "Computer Vision", 
-    "AI/ML"
+    "Mochamad Ferdy Fauzan",
+    "Software Engineer",
+    "Fullstack Developer",
+    "Frontend Architecture",
+    "React",
+    "Next.js",
+    "Java Spring Boot",
+    "Computer Vision",
+    "AI/ML",
+    "Langflow",
   ],
-  authors: [{ name: "Mochamad Ferdy Fauzan" }],
+  authors: [{name: "Mochamad Ferdy Fauzan"}],
+
   openGraph: {
     title: "Mochamad Ferdy Fauzan | Software Engineer",
-    description: "Software Engineer specializing in scalable fullstack architecture, applied AI, and pixel-perfect user experiences.",
-    url: "https://ferdyfauzan.vercel.app", // Note: Change this if you use a different domain later
+    description:
+      "Software Engineer specializing in scalable fullstack architecture, applied AI, and pixel-perfect user experiences.",
+    url: "https://ferdyfauzan.vercel.app",
     siteName: "Ferdy Fauzan Portfolio",
     images: [
       {
-        url: "https://placehold.co/1200x630/111111/ffffff?text=Ferdy+Fauzan+|+Software+Engineer",
+        url: "https://drive.google.com/file/d/1WaVw8QPQtyiz31p_4EzCAIqSIlY02x3N/view?usp=sharinghttps://drive.google.com/file/d/1WaVw8QPQtyiz31p_4EzCAIqSIlY02x3N/view?usp=sharing",
         width: 1200,
         height: 630,
         alt: "Mochamad Ferdy Fauzan - Portfolio",
