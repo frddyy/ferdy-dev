@@ -18,6 +18,174 @@ export const experiences = [
   { company: "PT Padepokan Tujuh Sembilan", role: "Frontend & Mobile Developer (Freelance)", duration: "Jan 2024 - Feb 2024", achievements: ["Led mobile development for the Recipe Book App — owning all mobile UI and REST API integrations end-to-end.", "Collaborated within a 15+ member Agile team to complete the full development cycle within a one-month timeline.", "Delivered a project formally adopted as the benchmark reference for evaluating future OJT candidates, recognized for quality and completeness."] },
 ];
 
+export const certificates = [
+  {
+    title: "AWS Backend Academy (Cloud & Gen AI)",
+    issuer: "Dicoding × AWS",
+    images: [
+      "/assets/images/certs/aws-be-academy/1-cloud-gen-ai.jpg",
+      "/assets/images/certs/aws-be-academy/2-js-fund.jpg",
+      "/assets/images/certs/aws-be-academy/3-js-be.jpg",
+    ],
+  },
+  {
+    title: "Microsoft Elevate (Data Science & Azure Gen AI)",
+    issuer: "Dicoding × Microsoft",
+    images: [
+      "/assets/images/certs/ms-elevate/1-ds-fabric.jpg",
+      "/assets/images/certs/ms-elevate/2-gen-ai-azure.jpg",
+      "/assets/images/certs/ms-elevate/3-data-processing.jpg",
+    ],
+  },
+  {
+    title: "Pijak in collaboration with IBM SkillsBuild (AI Fundamentals & ML)",
+    issuer: "Dicoding × IBM",
+    images: [
+      "/assets/images/certs/ibm-skillsbuild/1-ai-fund.jpg",
+      "/assets/images/certs/ibm-skillsbuild/2-python-programming.jpg",
+      "/assets/images/certs/ibm-skillsbuild/3-machine-learning.jpg",
+    ],
+  },
+  {
+    title: "Jr. Backend Spring Boot Developer",
+    issuer: "ArutalaLab",
+    images: ["/assets/images/certs/jr-springboot-dev.jpg"],
+  },
+  {
+    title: "Google Cloud Compute Skill",
+    issuer: "Google Cloud",
+    images: ["/assets/images/certs/gcp.png"],
+  },
+];
+
+export const achievements = [
+  {
+    title: "Registered Software Application (Podface)",
+    description: "DGIP Indonesia - Intellectual Property Certificate",
+    date: "2025",
+    images: ["/assets/images/certs/podface-hki.png"],
+  },
+  {
+    title: "3rd Place - Competitive Programming",
+    description: "TISIGRAM HIMAKOM POLBAN",
+    date: "2022",
+    images: ["/assets/images/certs/tisigram-3rd.jpg"],
+  },
+];
+
+export const skills = {
+  frontend: [
+    "Vue.js",
+    "React.js",
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+    "HTML/CSS",
+    "Bootstrap",
+    "Chakra UI",
+  ],
+  backend: [
+    "Java (Spring Boot)",
+    "Python (Flask)",
+    "Node.js (Express.js)",
+    "Laravel (PHP)",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Astra DB",
+    "RESTful API Design",
+    "JWT Authentication",
+    "RBAC",
+  ],
+  ai: [
+    "Langflow",
+    "RAG Pipeline",
+    "Prompt Engineering",
+    "Generative AI Fundamentals",
+    "AI/ML Fundamentals",
+    "Multi-Model Pipeline Development",
+    "Computer Vision (OpenCV)",
+    "Computer Vision (YOLOv8)",
+    "Speech Processing",
+  ],
+  delivery: [
+    "Docker",
+    "AWS",
+    "Linux",
+    "Git",
+    "GitLab CI/CD",
+    "Automated Testing",
+    "Agile",
+    "System Analysis",
+    "Swagger/OpenAPI",
+    "Figma",
+  ],
+};
+
+export const education = [
+  {
+    degree: "Bachelor of Applied Science in Informatics Engineering",
+    institution: "Politeknik Negeri Bandung",
+    location: "Bandung, Indonesia",
+    date: "Sep 2021 – Jul 2025",
+    gpa: "3.49 / 4.00",
+    project:
+      "The Development of a Desktop Application for Video Podcast Generator Based on Speech Processing and Speech-driven Facial Animation (Podface)",
+    coursework: [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Systems",
+      "Software Engineering",
+      "Web Programming",
+      "UI/UX Design",
+      "Software Testing",
+    ],
+  },
+];
+
+export const organizations = [
+  {
+    role: "Head of Work Program Division (2023) | Staff (2022) - Human Resources Department ",
+    organization: "Himpunan Mahasiswa Komputer (Polban)",
+    duration: "2022 & 2023",
+    description:
+      "Promoted from junior staff to division lead. As Head, orchestrated strategic human capital initiatives for a 10+ member team. Previously, executed foundational HR work programs and member development operations.",
+    images: [
+      "/assets/images/certs/org/kadiv-himakom.jpg",
+      "/assets/images/certs/org/staff-himakom.jpeg",
+    ],
+  },
+  {
+    role: "Speaker (LKMM-TD Training)",
+    organization: "LKMM-TD Event — BEM KEMA Polban",
+    duration: "2023",
+    description:
+      "Delivered public training on 'Discipline and Responsibility' to 60+ direct participants and a total audience of 600+ students, communicating core leadership values across the institution.",
+    images: ["/assets/images/certs/org/speaker-lkmm.png"],
+  },
+  {
+    role: "Mentor (LKMM-TD Training)",
+    organization: "LKMM-TD Event — BEM KEMA Polban",
+    duration: "2022",
+    description:
+      "Mentored 23 participants across structured leadership groups, providing detailed performance evaluations and fostering team accountability through hands-on guidance.",
+    images: ["/assets/images/certs/org/mentor-lkmm.jpg"],
+  },
+];
+
+export const languages = [
+  {
+    name: "Indonesian",
+    level: "Native",
+  },
+  {
+    name: "English",
+    level: "Proficient",
+    description: "TOEIC® Listening & Reading: 805/990",
+    images: ["/assets/images/certs/toeic.jpg"],
+  },
+];
+
 export const projects = [
   // --- TIER 1: THE POWER FIVE (Fully Expanded Apple Narrative) ---
   {
@@ -412,96 +580,4 @@ export const projects = [
   },
 ];
 
-export const certificates = [
-  { title: "AWS Backend Academy (Cloud & Gen AI)", issuer: "Dicoding × AWS", images: ["/assets/images/certs/aws-be-academy/1-cloud-gen-ai.jpg", "/assets/images/certs/aws-be-academy/2-js-fund.jpg", "/assets/images/certs/aws-be-academy/3-js-be.jpg"] },
-  { title: "Microsoft Elevate (Data Science & Azure Gen AI)", issuer: "Dicoding × Microsoft", images: ["/assets/images/certs/ms-elevate/1-ds-fabric.jpg", "/assets/images/certs/ms-elevate/2-gen-ai-azure.jpg", "/assets/images/certs/ms-elevate/3-data-processing.jpg"] },
-  { title: "IBM SkillsBuild (AI Fundamentals & ML)", issuer: "Dicoding × IBM", images: ["/assets/images/certs/ibm-skillsbuild/1-ai-fund.jpg", "/assets/images/certs/ibm-skillsbuild/2-python-programming.jpg", "/assets/images/certs/ibm-skillsbuild/3-machine-learning.jpg"] },
-  { title: "Jr. Backend Spring Boot Developer", issuer: "ArutalaLab", images: ["/assets/images/certs/jr-springboot-dev.jpg"] },
-  { title: "Google Cloud Compute Skill", issuer: "Google Cloud", images: ["/assets/images/certs/gcp.png"] }
-];
 
-export const achievements = [
-  { title: "Registered Software Application (Podface)", description: "DGIP Indonesia - Intellectual Property Certificate", date: "2025", images: ["/assets/images/certs/podface-hki.png"] },
-  { title: "3rd Place - Competitive Programming", description: "TISIGRAM HIMAKOM POLBAN", date: "2022", images: ["/assets/images/certs/tisigram-3rd.jpg"] }
-];
-
-export const skills = {
-  frontend: [
-    "Vue.js", "React.js", "React Native", "TypeScript", 
-    "JavaScript", "HTML/CSS", "Bootstrap", "Chakra UI"
-  ],
-  backend: [
-    "Java (Spring Boot)", "Python (Flask)", "Node.js (Express.js)", "Laravel (PHP)", 
-    "PostgreSQL", "MySQL", "MongoDB", "Astra DB",
-    "RESTful API Design", "JWT Authentication", "RBAC"
-  ],
-  ai: [
-    "Langflow", "Gemini 2.5 Flash", "RAG Pipeline", "Prompt Engineering",
-    "Generative AI Fundamentals", "AI/ML Fundamentals", "Multi-Model Pipeline Development", 
-    "Computer Vision (OpenCV)", "Computer Vision (YOLOv8)", "Speech Processing"
-  ],
-  delivery: [
-    "Docker", "AWS", "Linux", "Git", "GitLab CI/CD", 
-    "Automated Testing", "Agile", "System Analysis", "Swagger/OpenAPI", "Figma"
-  ]
-};
-
-export const education = [
-  {
-    degree: "Bachelor of Applied Science in Informatics Engineering",
-    institution: "Politeknik Negeri Bandung",
-    location: "Bandung, Indonesia",
-    date: "Sep 2021 – Jul 2025",
-    gpa: "3.49 / 4.00",
-    project: "The Development of a Desktop Application for Video Podcast Generator Based on Speech Processing and Speech-driven Facial Animation (Podface)",
-    coursework: [
-      "Data Structures & Algorithms", 
-      "Object-Oriented Programming", 
-      "Database Systems", 
-      "Software Engineering", 
-      "Web Programming", 
-      "UI/UX Design", 
-      "Software Testing"
-    ]
-  }
-];
-
-export const organizations = [
-  {
-    role: "Head of Work Program Division (2023) | Staff (2022) - Human Resources Department ",
-    organization: "Himpunan Mahasiswa Komputer (Polban)",
-    duration: "2022 & 2023", 
-    description: "Promoted from junior staff to division lead. As Head, orchestrated strategic human capital initiatives for a 10+ member team. Previously, executed foundational HR work programs and member development operations.",
-    images: [
-      "/assets/images/certs/org/kadiv-himakom.jpg", 
-      "/assets/images/certs/org/staff-himakom.jpeg"
-    ]
-  },
-  {
-    role: "Speaker (LKMM-TD Training)",
-    organization: "LKMM-TD Event — BEM KEMA Polban",
-    duration: "2023",
-    description: "Delivered public training on 'Discipline and Responsibility' to 60+ direct participants and a total audience of 600+ students, communicating core leadership values across the institution.",
-    images: ["/assets/images/certs/org/speaker-lkmm.png"]
-  },
-  {
-    role: "Mentor (LKMM-TD Training)",
-    organization: "LKMM-TD Event — BEM KEMA Polban",
-    duration: "2022",
-    description: "Mentored 23 participants across structured leadership groups, providing detailed performance evaluations and fostering team accountability through hands-on guidance.",
-    images: ["/assets/images/certs/org/mentor-lkmm.jpg"]
-  }
-];
-
-export const languages = [
-  { 
-    name: "Indonesian", 
-    level: "Native", 
-  },
-  { 
-    name: "English", 
-    level: "Proficient", 
-    description: "TOEIC® Listening & Reading: 805/990" ,
-    images: ["/assets/images/certs/toeic.jpg"]
-  }
-];
