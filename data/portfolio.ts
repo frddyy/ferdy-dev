@@ -9,7 +9,7 @@ export const socialLinks = {
   linkedin: "https://linkedin.com/in/mochamad-ferdy-fauzan",
   github: "https://github.com/frddyy",
   email: "m.ferdyfauzan@gmail.com",
-  resume: "/resume.pdf" 
+  resume: "/resume.pdf"
 };
 
 export const experiences = [
@@ -188,6 +188,39 @@ export const languages = [
 
 export const projects = [
   // --- TIER 1: THE POWER FIVE (Fully Expanded Apple Narrative) ---
+  {
+    slug: "luminagrid-os",
+    title: "LuminaGrid OS: Autonomous AI SCADA Dashboard",
+    category: "AI Agent & Fullstack Architecture",
+    context: "Advanced System Architecture",
+    role: "AI Software Engineer",
+    summary:
+      "An enterprise-grade SCADA dashboard powered by an autonomous Gemini 2.5 Flash AI Co-Pilot. The system utilizes a custom RAG pipeline and NLP parsing to translate real-time grid telemetry into executable, zero-latency mitigation actions.",
+    details: {
+      problem:
+        "Traditional industrial control systems often suffer from high visualization latency and severe operator alarm fatigue. Furthermore, manually diagnosing hardware faults and formulating mitigation strategies across a massive fleet is time-consuming and prone to human error during emergencies.",
+      solution:
+        "Engineered an autonomous AI agent utilizing LangChain and Gemini 2.5 Flash to act as a proactive grid Co-Pilot. I built a background ingestion pipeline streaming real-world Kaggle Solar Generation data via SSE, which the AI analyzes in real-time. By implementing advanced prompt engineering and a custom Regex NLP parser, the AI's diagnostic reasoning is instantly translated into interactive batch execution buttons for operators.",
+      impact:
+        "Delivered a fault-tolerant, Human-in-the-Loop (HITL) interface where operators can execute complex AI-recommended mitigations with zero latency. The system eliminates alarm fatigue through contextual reasoning while strictly persisting immutable transaction audit trails to MongoDB."
+    },
+    tech: [
+      "Gemini 2.5 Flash",
+      "LangChain",
+      "RAG Pipeline",
+      "Prompt Engineering",
+      "React / TypeScript",
+      "Node.js",
+      "MongoDB"
+    ],
+    year: "2026",
+    link: "https://github.com/frddyy/lumina-grid",
+    images: [
+      "/assets/images/portfolio/lumina-grid/1.png",
+      "/assets/images/portfolio/lumina-grid/2.png",
+      "/assets/images/portfolio/lumina-grid/3.png"
+    ]
+  },
   {
     slug: "greenops-architect",
     title: "GreenOps Architect: AI Cloud Validator",
