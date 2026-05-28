@@ -190,19 +190,19 @@ export const projects = [
   // --- TIER 1: THE POWER FIVE (Fully Expanded Apple Narrative) ---
   {
     slug: "luminagrid-os",
-    title: "LuminaGrid OS: Autonomous AI SCADA Dashboard",
+    title: "LuminaGrid OS: Proactive AI-Driven Grid Management",
     category: "AI Agent & Fullstack Architecture",
     context: "Advanced System Architecture",
     role: "AI Software Engineer",
     summary:
-      "An enterprise-grade SCADA dashboard powered by an autonomous Gemini 2.5 Flash AI Co-Pilot. The system utilizes a custom RAG pipeline and NLP parsing to translate real-time grid telemetry into executable, zero-latency mitigation actions.",
+      "An enterprise-grade SCADA dashboard powered by a proactive Gemini 2.5 Flash AI Co-Pilot. Engineered as a Cloud-Native Monolithic application, the system utilizes a custom RAG pipeline to translate real-time grid telemetry into executable mitigation actions, ensuring operational stability across expanding solar fleets.",
     details: {
       problem:
-        "Traditional industrial control systems often suffer from high visualization latency and severe operator alarm fatigue. Furthermore, manually diagnosing hardware faults and formulating mitigation strategies across a massive fleet is time-consuming and prone to human error during emergencies.",
+        "As industrial control systems scale, operators face severe cognitive overload and alarm fatigue from noisy, high-volume IoT data. Monitoring expanding grid units manually forces maintenance teams into a reactive cycle, where identifying hardware faults or weather-induced degradation becomes time-consuming, prone to human error, and drives up operational costs during emergencies.",
       solution:
-        "Engineered an autonomous AI agent utilizing LangChain and Gemini 2.5 Flash to act as a proactive grid Co-Pilot. I built a background ingestion pipeline streaming real-world Kaggle Solar Generation data via SSE, which the AI analyzes in real-time. By implementing advanced prompt engineering and a custom Regex NLP parser, the AI's diagnostic reasoning is instantly translated into interactive batch execution buttons for operators.",
+        "I built a proactive AI Co-Pilot utilizing LangChain and Gemini 2.5 Flash to act as an intelligent intermediary between raw data and the operator. The system ingests Kaggle Solar Generation data via a zero-latency Server-Sent Events (SSE) pipeline, fortified with Last Known Good Value (LKGV) logic to eliminate UI flickering during sensor dropouts. The AI's diagnostic reasoning is instantly parsed into structured JSON payloads, presenting operators with interactive, batch-execution mitigation plans.",
       impact:
-        "Delivered a fault-tolerant, Human-in-the-Loop (HITL) interface where operators can execute complex AI-recommended mitigations with zero latency. The system eliminates alarm fatigue through contextual reasoning while strictly persisting immutable transaction audit trails to MongoDB."
+        "Successfully deployed to Google Cloud Run, the system delivers a fault-tolerant, Human-in-the-Loop (HITL) interface where operators can execute complex AI-recommended mitigations instantly safely. The application eliminates alarm fatigue, drastically reduces mitigation response times, and strictly persists immutable transaction audit trails to MongoDB for enterprise compliance."
     },
     tech: [
       "Gemini 2.5 Flash",
@@ -214,7 +214,7 @@ export const projects = [
       "MongoDB"
     ],
     year: "2026",
-    link: "https://github.com/frddyy/lumina-grid",
+    link: ["https://youtu.be/V5wP-cFa01w", "https://github.com/frddyy/lumina-grid.git"],
     images: [
       "/assets/images/portfolio/lumina-grid/1.png",
       "/assets/images/portfolio/lumina-grid/2.png",
