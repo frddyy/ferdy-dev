@@ -253,7 +253,6 @@ export const projects = [
       "Astra DB",
       "RAG Pipeline",
       "Prompt Engineering",
-      "AWS",
     ],
     year: "2026",
     link: "https://youtu.be/tLh4cNH2YwU?si=weEpbIA16f9AmgHl",
