@@ -20,6 +20,15 @@ export const experiences = [
 
 export const certificates = [
   {
+    title: "IT - AI Agent for Programming",
+    issuer: "Hacktiv8 × IBM SkillsBuild",
+    images: [
+      "/assets/images/certs/hacktiv8/1-certs.jpg",
+      "/assets/images/certs/hacktiv8/2-transcripts.jpg",
+      "/assets/images/certs/hacktiv8/3-transcripts.jpg",
+    ],
+  },
+  {
     title: "AWS Backend Academy (Cloud & Gen AI)",
     issuer: "Dicoding × AWS",
     images: [
@@ -44,6 +53,7 @@ export const certificates = [
       "/assets/images/certs/ibm-skillsbuild/1-ai-fund.jpg",
       "/assets/images/certs/ibm-skillsbuild/2-python-programming.jpg",
       "/assets/images/certs/ibm-skillsbuild/3-machine-learning.jpg",
+      "/assets/images/certs/ibm-skillsbuild/4-deep-learning.jpg",
     ],
   },
   {
@@ -225,7 +235,7 @@ export const projects = [
     slug: "greenops-architect",
     title: "GreenOps Architect: AI Cloud Validator",
     category: "AI Agent & Cloud Architecture",
-    context: "Professional Certification Project",
+    context: "Final Project: IT - AI Agent for Programming (Hacktiv8 × IBM SkillsBuild)",
     role: "AI Solutions Architect",
     summary:
       "An enterprise-grade AI agent powered by Langflow and Gemini that automatically audits proposed cloud architectures to prevent financial waste and reduce carbon emissions.",
